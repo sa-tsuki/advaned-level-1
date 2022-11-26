@@ -1,0 +1,47 @@
+body {
+  font-family: "Montserrat", "Noto Sans", sans-serif;
+  color: #3f3f3f;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.font-noto {
+  font-family: "Noto Sans";
+}
+
+.font-roboto {
+  font-family: "Roboto";
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  padding: 32px 80px 0;
+
+  .header {
+    &__container {
+      width: 281px;
+    }
+  }
+}
+
+footer {
+  background-color: #3f3f3f;
+  padding: 4px;
+
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #7e7e7e;
+    font-family: "Noto Sans JP";
+    font-weight: bold;
+  }
+}

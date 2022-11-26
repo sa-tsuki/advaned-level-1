@@ -1,0 +1,31 @@
+body {
+  font-family: "Montserrat", "Noto Sans", sans-serif;
+  color: #3f3f3f;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.font-noto {
+  font-family: "Noto Sans";
+}
+
+.font-roboto {
+  font-family: "Roboto";
+}
+
+footer {
+  background-color: #3f3f3f;
+  padding: 4px;
+}
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #7e7e7e;
+  font-family: "Noto Sans JP";
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
